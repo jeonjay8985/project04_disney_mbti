@@ -3,14 +3,14 @@ function sendLinkCustom() {
       Kakao.init('https://developers.kakao.com/sdk/js/kakao.js');
     }
     Kakao.Link.sendCustom({
-        templateId: [90512]
+        templateId: [101797]
     });
   }
   
   try {
     function sendLinkDefault() {
       if (!Kakao.isInitialized()) {
-        Kakao.init("d6e3dab46dbeaca72f3e9c546a25432a");
+        Kakao.init("0db18cee9fb123f2eac1670d86906511");
       }
       Kakao.Link.sendDefault({
         objectType: 'feed',
@@ -18,10 +18,10 @@ function sendLinkCustom() {
           title: '재미로 보는 디즈니 공주 테스트',
           description: '#디즈니 #MBTI #심리테스트',
           imageUrl:
-            'https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/201702/21/htm_20170221102628501735.jpg',
+            'https://i0.wp.com/overthebigmoon.com/wp-content/uploads/2015/06/disney-princess-printables.jpg?resize=460%2C575&ssl=1/',
           link: {
-            mobileWebUrl: 'https://jade-pavlova-0b8af6.netlify.app/',
-            webUrl: 'https://jade-pavlova-0b8af6.netlify.app/',
+            mobileWebUrl: 'https://project04-disney-mbti.netlify.app/',
+            webUrl: 'https://project04-disney-mbti.netlify.app/',
           },
         },
         social: {
@@ -33,15 +33,15 @@ function sendLinkCustom() {
           {
             title: '웹으로 보기',
             link: {
-              mobileWebUrl: 'https://jade-pavlova-0b8af6.netlify.app/',
-              webUrl: 'https://jade-pavlova-0b8af6.netlify.app/',
+              mobileWebUrl: 'https://project04-disney-mbti.netlify.app/',
+              webUrl: 'https://project04-disney-mbti.netlify.app/',
             },
           },
           {
             title: '앱으로 보기',
             link: {
-              mobileWebUrl: 'https://jade-pavlova-0b8af6.netlify.app/',
-              webUrl: 'https://jade-pavlova-0b8af6.netlify.app/',
+              mobileWebUrl: 'https://project04-disney-mbti.netlify.app/',
+              webUrl: 'https://project04-disney-mbti.netlify.app/',
             },
           },
         ],
